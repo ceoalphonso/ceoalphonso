@@ -1,10 +1,16 @@
-**Shell**
+**Linux/macOS Shell**
 
 `btfs config --json API.HTTPHeaders.Access-Control-Allow-Origin '["*"]'`
 
 `btfs config --json API.HTTPHeaders.Access-Control-Allow-Methods '["PUT","GET","POST"]'`
 
-**PowerShell**
+**Windows Batch**
+
+`btfs config --json API.HTTPHeaders.Access-Control-Allow-Origin "["""*"""]"`
+
+`btfs config --json API.HTTPHeaders.Access-Control-Allow-Methods "["""PUT""", """GET""", """POST"""]"`
+
+**Windows PowerShell**
 
 `btfs config --json API.HTTPHeaders.Access-Control-Allow-Origin '[\"*\"]'`
 
