@@ -9,7 +9,7 @@ make install
 ```
 # Initialize BTFS node cluster
 ```
-iptb auto -type localbtfs -count 5
+iptb auto -type localbtfs -count 4
 iptb run -- btfs init
 iptb run -- btfs config profile apply storage-host-testnet
 
