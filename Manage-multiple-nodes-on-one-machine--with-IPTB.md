@@ -29,7 +29,7 @@ go build rewrite_config.go
 iptb logs > iptb_logs.txt
 ./standalone
 ```
-# Fund the BTFS nodes
+# Fund BTFS nodes
 ```
 # print all btfs nodes logs include bttc address, deposit 100 btt to all bttc address
 iptb logs
