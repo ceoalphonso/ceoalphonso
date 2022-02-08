@@ -1,4 +1,4 @@
-IPTB full name is IPFS testbed, which can quickly launch and manage lots of node on one machine.
+IPTB full name is IPFS testbed, which can quickly launch and manage lots of nodes on one machine.
 
 **Make sure btfs was installed and added to path environment before start below step, no need "btfs init"**
 # Install IPTB
