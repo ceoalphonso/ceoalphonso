@@ -37,7 +37,7 @@ iptb logs
 # if the nodes already stopped when wait depositing, start again
 iptb start
 ```
-# Other useful IPTB command
+# Other useful command
 Start single node
 ```
 iptb start 0
