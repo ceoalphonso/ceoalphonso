@@ -12,12 +12,6 @@ make install
 iptb auto -type localbtfs -count 4
 iptb run -- btfs init
 iptb run -- btfs config profile apply storage-host-testnet
-
-# use random port to avoid conflict 
-iptb run -- btfs config --json Addresses.Swarm '["/ip4/0.0.0.0/tcp/0"]'
-iptb run -- btfs config --json Addresses.API '["/ip4/127.0.0.1/tcp/0"]'
-iptb run -- btfs config --json Addresses.RemoteAPI '["/ip4/127.0.0.1/tcp/0"]'
-iptb start
 ```
 (optional) persist the port number
 ```
