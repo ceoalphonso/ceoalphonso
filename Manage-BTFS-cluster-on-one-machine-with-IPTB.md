@@ -12,6 +12,7 @@ make install
 iptb auto -type localbtfs -count 4
 iptb run -- btfs init
 iptb run -- btfs config profile apply storage-host-testnet
+iptb start
 ```
 (optional) persist the port number
 ```
