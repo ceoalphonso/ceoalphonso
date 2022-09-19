@@ -14,3 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+ghost/core/core/server/data/exporter/table-lists.js
+
+git clone https://git.code.sf.net/p/gosfem/code gosfem-code
